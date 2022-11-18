@@ -11,7 +11,7 @@ using namespace std;
 #include <time.h>
 #include <random>
 
- /*
+ /*cc
   * MACRO
   */
  // Create snake
