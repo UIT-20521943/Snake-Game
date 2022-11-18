@@ -16,6 +16,7 @@ using namespace std;
   */
  // Create snake
  void drawSnakePart(Point);
+ //hello
 vector<Point> snake = {
 	Point{ WIDTH / 2 + 2, HEIGHT / 2 },
 	Point{ WIDTH / 2 + 1, HEIGHT / 2 },
