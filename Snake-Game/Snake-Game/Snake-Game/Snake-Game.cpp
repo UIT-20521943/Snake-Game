@@ -11,7 +11,7 @@ using namespace std;
 #include <time.h>
 #include <random>
 
- /* 
+ /*
   * MACRO
   */
  // Create snake
@@ -22,6 +22,11 @@ vector<Point> snake = {
 	Point{ WIDTH / 2 - 1, HEIGHT / 2 },
 	Point{ WIDTH / 2 - 2, HEIGHT / 2 }
 };
+Direction direction = Direction::right;
+Point apple;
+int score = 0;
+int speed = 300;
+Point prevTail;
 #define WIDTH 40
 #define HEIGHT 20
 #define BODY '*'
