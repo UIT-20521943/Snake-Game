@@ -15,6 +15,7 @@ using namespace std;
   * MACRO
   */
  // Create snake
+ void drawSnakePart(Point);
 vector<Point> snake = {
 	Point{ WIDTH / 2 + 2, HEIGHT / 2 },
 	Point{ WIDTH / 2 + 1, HEIGHT / 2 },
