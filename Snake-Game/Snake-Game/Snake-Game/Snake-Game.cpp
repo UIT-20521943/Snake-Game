@@ -5,3 +5,4 @@ void drawBox()
 		cout << '=';
 	gotoxy(0, HEIGHT);
     //s
+	lllllllllllllll
